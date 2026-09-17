@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4f49450063ada864c9f144c7549b13ff
+guid: 482cf60619d1538419117830657c85f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2794392168164135490
-    second: PixelGround_0
+      213: 8740491524576469797
+    second: Sun_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PixelGround_0
+      name: Sun_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 110
         y: 0
-        width: 940
-        height: 350
+        width: 352
+        height: 343
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 711, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2429e822fdca7c620800000000000000
-      internalID: 2794392168164135490
+      spriteID: 52361b48bb67c4970800000000000000
+      internalID: 8740491524576469797
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 13d6107ab7c15884f96032380caf33c3
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PixelGround_0: 2794392168164135490
+      Sun_0: 8740491524576469797
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
