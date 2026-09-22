@@ -59,14 +59,14 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         // Apply horizontal movement
-        rb.velocity = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
 
         // Execute Jump only if grounded
         if (jumpRequested)
         {
             if (isGrounded)
             {
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             }
             jumpRequested = false; // Reset request flag after processing
         }
@@ -78,14 +78,14 @@ public class PlayerMovement : MonoBehaviour
     private void ApplyVariableGravity()
     {
         // Standard gravity multiplier when falling
-        if (rb.velocity.y < 0)
+        if (rb.linearVelocity.y < 0)
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
+            rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
         }
         // Increased gravity multiplier when releasing space bar early while moving upward
-        else if (rb.velocity.y > 0 && !isHoldingJump)
+        else if (rb.linearVelocity.y > 0 && !isHoldingJump)
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.fixedDeltaTime;
+            rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.fixedDeltaTime;
         }
     }
 
