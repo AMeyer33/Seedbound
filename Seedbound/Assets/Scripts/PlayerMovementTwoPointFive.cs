@@ -7,6 +7,9 @@ public class PlayerMovementTwoPointFive : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 8.0f;
 
+    [Tooltip("How fast the character turns/accelerates. 75 feels snappy while eliminating camera jitter.")]
+    [SerializeField] private float acceleration = 75.0f;
+
     private Rigidbody2D rb;
     private Vector2 moveInput;
 
@@ -55,7 +58,15 @@ public class PlayerMovementTwoPointFive : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Move position via Rigidbody2D velocity for smooth physics collision handling
-        rb.linearVelocity = moveInput * moveSpeed;
+        Vector2 targetVelocity = moveInput * moveSpeed;
+
+        // Smoothly ramp velocity toward the target velocity across both axes
+        Vector2 smoothedVelocity = Vector2.MoveTowards(
+            rb.linearVelocity,
+            targetVelocity,
+            acceleration * Time.fixedDeltaTime
+        );
+
+        rb.linearVelocity = smoothedVelocity;
     }
 }
