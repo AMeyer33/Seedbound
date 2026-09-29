@@ -2,26 +2,37 @@ using UnityEngine;
 
 public class CameraTrackPlayer : MonoBehaviour
 {
-    // Drag your player object into this slot in the Unity Inspector
+    [Header("Tracking Settings")]
     public Transform target; 
+    public Vector3 offset = new Vector3(0, 0, -10f); 
     
-    // Adjust these values to position the camera relative to the player
-    public Vector3 offset = new Vector3(0, 2, -10); 
-    
-    // Higher values mean tighter tracking; lower values mean smoother lag
-    public float smoothTime = 0.25f; 
-    
+    [Tooltip("Lower values = tighter tracking. 0.12f works well for top-down games.")]
+    public float smoothTime = 0.12f; 
+
     private Vector3 currentVelocity = Vector3.zero;
 
-    // Update runs every frame
-    void Update()
+    void Awake()
+    {
+        // Syncs the game to the monitor's refresh rate to prevent frame-tearing and stutter
+        QualitySettings.vSyncCount = 1; 
+
+        // Caps frame rate to prevent the GPU from running uncapped in Editor/Build
+        Application.targetFrameRate = 60; 
+    }
+
+    void LateUpdate()
     {
         if (target != null)
         {
             Vector3 targetPosition = target.position + offset;
-            
-            // Smoothly dampens the camera movement
-            transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref currentVelocity, smoothTime);
+
+            // SmoothDamp absorbs sudden direction flips without stuttering
+            transform.position = Vector3.SmoothDamp(
+                transform.position, 
+                targetPosition, 
+                ref currentVelocity, 
+                smoothTime
+            );
         }
     }
 }
