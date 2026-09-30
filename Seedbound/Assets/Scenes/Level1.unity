@@ -324,9 +324,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 7.1099997, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.4, y: 3.5}
+    oldSize: {x: 9.39, y: 3.5}
     newSize: {x: 9.4, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -467,9 +467,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 7.1099997, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.4, y: 3.5}
+    oldSize: {x: 9.39, y: 3.5}
     newSize: {x: 9.4, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -681,9 +681,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 7.1099997, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.4, y: 3.5}
+    oldSize: {x: 9.39, y: 3.5}
     newSize: {x: 9.4, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -820,9 +820,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 7.1099997, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.4, y: 3.5}
+    oldSize: {x: 9.39, y: 3.5}
     newSize: {x: 9.4, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1128,9 +1128,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 7.1099997, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.4, y: 3.5}
+    oldSize: {x: 9.39, y: 3.5}
     newSize: {x: 9.4, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1267,9 +1267,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 7.1099997, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.4, y: 3.5}
+    oldSize: {x: 9.39, y: 3.5}
     newSize: {x: 9.4, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1498,9 +1498,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 7.1099997, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.4, y: 3.5}
+    oldSize: {x: 9.39, y: 3.5}
     newSize: {x: 9.4, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1637,9 +1637,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 7.1099997, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.4, y: 3.5}
+    oldSize: {x: 9.39, y: 3.5}
     newSize: {x: 9.4, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1776,9 +1776,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 7.1099997, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.4, y: 3.5}
+    oldSize: {x: 9.39, y: 3.5}
     newSize: {x: 9.4, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2144,9 +2144,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 7.1099997, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.4, y: 3.5}
+    oldSize: {x: 9.39, y: 3.5}
     newSize: {x: 9.4, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2700,9 +2700,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 7.1099997, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.4, y: 3.5}
+    oldSize: {x: 9.39, y: 3.5}
     newSize: {x: 9.4, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2799,7 +2799,7 @@ Transform:
   m_GameObject: {fileID: 2134075890}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -481, y: -160, z: 0}
+  m_LocalPosition: {x: -482, y: -160, z: 0}
   m_LocalScale: {x: 40, y: 40, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
