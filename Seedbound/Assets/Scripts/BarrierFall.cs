@@ -6,7 +6,7 @@ public class BarrierFall : MonoBehaviour
     [SerializeField] private GameObject barrier;
 
     [Header("Movement Settings")]
-    [SerializeField] private Vector3 loweredPositionOffset = new Vector3(0, -3f, 0); // Distance the barrier falls
+    [SerializeField] private Vector3 loweredPositionOffset = new Vector3(0, -100f, 0); // Distance the barrier falls
     [SerializeField] private float moveSpeed = 5f;
 
     private Vector3 upPosition;
