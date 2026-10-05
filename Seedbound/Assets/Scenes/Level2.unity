@@ -290,7 +290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &171692127
 RectTransform:
   m_ObjectHideFlags: 0
@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.31764707, g: 0.7294118, b: 0.29411766, a: 1}
+  m_Color: {r: 0.1960784, g: 0.69803923, b: 0.1960784, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3660,7 +3660,7 @@ Transform:
   m_GameObject: {fileID: 1520926000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 358, y: -168, z: 0}
+  m_LocalPosition: {x: 262, y: -173, z: 0}
   m_LocalScale: {x: 45, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4076,19 +4076,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Level complete
-
-    You pollinated a maypop!
-
-    
-
-    Maypops (passionflowers)
-    are wildflowers native to western, central, and southern Kentucky.
-
-
-    To
-    grow them yourself, plant your seeds six weeks before the last frost of winter.
-    They thrive in full sun, well drained soil, and can survive the toughest conditions!'
+  m_text: "Level complete\nYou pollinated a maypop!\n\n\nMaypops (passionflowers)
+    are wildflowers native to western, central, and southern Kentucky.\n\nTo grow
+    them yourself, plant them in a sunny spot next to a trellis and keep the soil
+    moist. \n\nFun fact: maypops have fruit!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
