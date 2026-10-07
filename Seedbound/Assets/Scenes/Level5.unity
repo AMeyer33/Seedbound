@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 2122955690}
   - component: {fileID: 2122955689}
   m_Layer: 0
-  m_Name: Flowerfield_0
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
