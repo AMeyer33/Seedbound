@@ -198,8 +198,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 94}
-  m_SizeDelta: {x: 616.8687, y: -114.3692}
+  m_AnchoredPosition: {x: 10.30011, y: 66.962494}
+  m_SizeDelta: {x: 57.7236, y: -14.802}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &211206598
 MonoBehaviour:
@@ -2740,8 +2740,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.53858334, y: 0.5}
-  m_AnchoredPosition: {x: -48.94, y: -0.0000015504}
-  m_SizeDelta: {x: 729.828, y: 321.88}
+  m_AnchoredPosition: {x: -34.226, y: -0.0057526}
+  m_SizeDelta: {x: 558.16, y: 355.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1808606837
 MonoBehaviour:
@@ -2766,7 +2766,7 @@ MonoBehaviour:
   m_text: "Level Complete\nYou grew a black-eyed susan!\r\n\r\nBlack-eyed susans
     are wildflowers native to all regions of Kentucky. \r\n\nTo grow them yourself,
     plant your seeds six weeks before the last frost of winter. They thrive in full
-    sun, well drained soil, and can survive the toughest conditions!"
+    sun, well drained soil, and can survive the toughest conditions!\n\nFun fact: "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
