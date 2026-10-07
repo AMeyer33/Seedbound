@@ -11670,19 +11670,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You grew a butterfly milkweed!
+  m_text: 'You grew a butterfly milkweed plant!
 
 
-    Butterfly milkweeds are native to
-    all parts of Kentucky.
+    Butterfly milkweeds are native
+    to all parts of Kentucky.
 
 
-    To grow them yourself, plant your seeds in a sunny
-    spot in late fall or winter.
+    To grow them yourself, plant your seeds in a
+    sunny spot in late fall or winter and water them well right after.
 
 
-    Fun fact: Monarch butterflies lay their eggs
-    on butterfly milkweeds!'
+    Fun
+    fact: Monarch butterflies lay their eggs on butterfly milkweeds!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
