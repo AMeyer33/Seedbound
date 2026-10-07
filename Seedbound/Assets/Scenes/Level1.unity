@@ -180,7 +180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &211206597
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2765,8 +2765,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Level Complete\nYou grew a black-eyed susan!\r\n\r\nBlack-eyed susans
     are wildflowers native to all regions of Kentucky. \r\n\nTo grow them yourself,
-    plant your seeds six weeks before the last frost of winter. They thrive in full
-    sun, well drained soil, and can survive the toughest conditions!\n\nFun fact: "
+    plant your seeds in a sunny spot six weeks before the last frost of winter.\n\nFun
+    fact: Black-eyed susans are \"pioneer\" plants, one of the first to grow back
+    after a natural disaster! "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
