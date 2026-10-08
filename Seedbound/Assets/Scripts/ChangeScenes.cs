@@ -32,5 +32,14 @@ public class ChangeScenes : MonoBehaviour
     {
         SceneManager.LoadScene("Level5");
     }
-    
+
+    public void GotoSceneLevel52()
+    {
+        SceneManager.LoadScene("Level5 (2)");
+    }
+
+    public void GotoSceneLevel53()
+    {
+        SceneManager.LoadScene("Level5 (3)");
+    }
 }
