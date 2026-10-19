@@ -42,4 +42,9 @@ public class ChangeScenes : MonoBehaviour
     {
         SceneManager.LoadScene("Level5 (3)");
     }
+
+    public void GotoSceneTitleScreen()
+    {
+        SceneManager.LoadScene("TitleScreen");
+    }
 }
