@@ -801,7 +801,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: They prevent the spread of invasive species, support local insents and
+  m_text: They prevent the spread of invasive species, support local insects and
     animals, and prevent soil erosion. Without them, the ecosystem suffers!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
